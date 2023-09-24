@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <title>Ficha del paciente</title>
+</head>
+<body>
+    <h1 class="h1">FICHA DEL PACIENTE</h1>
+    <header class="header">
+        <nav class="nav_1">
+            <ul class="lista">
+                <li class="pag"><a href="#">Ficha paciente</a></li>
+                <li class="pag"><a href="./views/login.html">Login</a></li>
+                <li class="pag"><a href="./views/citas.html">Citas</a></li>
+                <li class="pag"><a href="./views/examenes.html">Exámenes</a></li>
+                <li class="pag"><a href="./views/hclinica.html">Historia Clinica</a></li>
+                <li class="pag"><a href="./views/recetas.html">Recetas</a></li>
+            </ul>  
+        </nav>
+    </header>
+    <main class="main">
+        <section class="section_fp">
+            <button type="button" class="boton_guardar">Guardar</button>
+            <div class="container_datos">
+                <p class="doctor" id="doctor">Doctor(a): XXXXXXXXXX XXXXXXXXXXX</p>
+            </div>
+            <div class="container_datos">
+                <p class="doctor" id="doctor">CC: XXXXXXXXXX</p>
+            </div>
+            <button type="button" class="boton_1"><i class="fa-solid fa-plus"></i></button>
+            <button type="button" class="boton_1"><i class="fa-solid fa-print"></i></button>
+            <button type="button" class="boton_1"><i class="fa-solid fa-envelope"></i></button>
+            <button type="button" class="boton_1"><i class="fa-solid fa-trash"></i></button>
+        </section>
+        <section class="section_vg">
+            <div class="caja_opcion">
+                <div class="gender">
+                    <p>Genero</p>
+                    <label for="sexo" class="sexo">Femenino</label>
+                    <input type="radio" name="sexo" value="Femenino">
+                    <label for="sexo" class="sexo">Masculino</label>
+                    <input type="radio" name="sexo" value="Masculino">
+                </div>
+                <div class="estado">
+                    <p>Estado</p>
+                    <label for="estado" class="baja">Baja</label>
+                    <input type="radio" name="estado" value="Femenino">
+                    <label for="estado" class="alta">Alta</label>
+                    <input type="radio" name="estado" value="Masculino">
+                </div>
+            </div>
+            <div class="caja_datosp">
+                <h2>DATOS DEL PACIENTE</h2>
+            </div>
+            <div class="caja_datosp1">
+                <h2>XXXXXXXXX XXXXXXXXX</h2>
+            </div>
+            <section class="form_u">
+                <div class="formulario">
+                    <label for="apellido1" class="p1">Primer apellido:<br></label>
+                    <input type="text" name="apellido1" class="input">
+                </div>
+                <div class="formulario">
+                    <label for="apellido2" class="p1">Segundo apellido:<br></label>
+                    <input type="text" name="apellido2" class="input"> 
+                </div>
+                <div class="formulario">
+                    <label for="nombre" class="p1">Nombre:<br></label>
+                    <input type="text" name="nombre" class="input">
+                </div>
+                <div class="formulario">
+                    <label for="nacimiento" class="p1">Fecha de nacimiento<br></label>
+                    <input type="date" name="nacimiento" class="input">
+                </div>        
+                <div class="formulario">
+                    <label for="edad" class="p1">Edad<br></label>
+                    <input type="text" name="edad" class="input">  
+                </div>
+                <div class="formulario">
+                    <label for="gs" class="p1">Grupo sanguineo<br></label>
+                    <input type="text" name="gs" class="input">   
+                </div>
+                <div class="formulario">
+                    <label for="estadoCivil" class="p1">Estado civil<br></label>
+                    <input type="text" name="estadoCivil" class="input">  
+                </div>
+                <div class="formulario">
+                    <label for="dni" class="p2">DNI:<br></label>
+                    <input type="text" name="dni" class="input">
+                </div>
+                <div class="formulario">
+                    <label for="usuario" class="p2">Tipo de usuario:<br></label>
+                    <input type="text" name="usuario" class="input"> 
+                </div>
+                <div class="formulario">
+                    <label for="poliza" class="p2">Num. poliza:<br></label>
+                    <input type="text" name="poliza" class="input">
+                </div>
+                <div class="formulario">
+                    <label for="email" class="p2">E-mail:<br></label>
+                    <input type="text" name="email" class="input">
+                </div>        
+                <div class="formulario">
+                    <label for="telefono" class="p2">Telefono:<br></label>
+                    <input type="text" name="telefono" class="input">  
+                </div>
+                <div class="formulario">
+                    <label for="aseguradora" class="p2">Aseguradora:<br></label>
+                    <input type="text" name="aseguradora" class="input">   
+                </div>
+                <div class="formulario">
+                    <label for="direccion" class="p2">Dirección:<br></label>
+                    <input type="text" name="direccion" class="input">  
+                </div>
+                <div class="formulario">
+                    <label for="localidad" class="p2">Localidad:<br></label>
+                    <input type="text" name="localidad" class="input">  
+                </div>
+                <div class="formulario">
+                    <label for="provincia" class="p2">Provincia:<br></label>
+                    <input type="text" name="provincia" class="input">  
+                </div>
+                <div class="formulario">
+                    <label for="codp" class="p2">Codigo Postal:<br></label>
+                    <input type="text" name="codp" class="input">  
+                </div>
+            </section>
+            <section class="sec_photo">
+                <div class="info_r">
+                    <h3>INFORMACIÓN NECESARIA PARA RECETAR</h3>
+                </div>
+                <div class="paciente_card">
+                    <img src="./assets/img/profile_picture.png" class="profilepic" alt="Foto del paciente">
+                    <p class="codigo">Codigo de paciente: XXXXXX</p>
+                </div>
+                <section class="container_p">
+                    <div class="formulario_p">
+                        <label for="alergias" class="p3" >Alergias:</label>
+                        <input type="text" name="alergias" class="input" id="p3">
+                    </div>
+                    <div class="formulario_p">
+                        <label for="antf" class="p3">Antecedentes familiares:</label>
+                        <input type="text" name="antf" class="input" id="p3"> 
+                    </div>
+                    <div class="formulario_p">
+                        <label for="sintomas" class="p3">Sintomas:</label>
+                        <input type="text" name="sintomas" class="input" id="p3">
+                    </div>
+                    <div class="formulario_p">
+                        <label for="analgesicos" class="p3" >Analgesicos:</label>
+                        <input type="text" name="analgesicos" class="input" id="p3">
+                    </div>
+                </section>
+            </section>
+            <section class="container_firma">
+                <div class="firma">
+                    <input type="text" name="firma" class="input" id="p4">
+                    <label for="firma" class="p4">Firma doctor<br></label>
+                </div>
+                <div class="firma">
+                    <input type="text" name="fecha_f" class="input" id="p4">
+                    <label for="fecha_f" class="p4">Fecha<br></label>
+                </div>
+            </section>
+        </section>
+
+    </main>
+    <footer class="footer">
+        <section class="container_f">
+            <div class="footer-row">
+                <div class="footer-links">
+                    <h4>Compañía</h4>
+                    <ul>
+                        <li><a href="">Nostros</a></li>
+                        <li><a href="">Servicios</a></li>
+                        <li><a href="">Politica de privacidad</a></li>
+                        <li><a href="">Afiliados</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Ayuda</h4>
+                    <ul>
+                        <li><a href="">Soporte</a></li>
+                        <li><a href="">Estatus</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Siguenos</h4>
+                    <div class="redes">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <p class="pf">Derechos reservados 2023 | En desarrollo</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>
