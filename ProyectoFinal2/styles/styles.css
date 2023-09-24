@@ -236,8 +236,7 @@ button, .container_datos{
     box-shadow: 5px 5px 5px #716d6d;
     display: block;
     font-size: 24px;  
-    font-weight: 700;
-    
+    font-weight: 700; 
 }
 .paciente_card{
     background-color: azure;
@@ -405,6 +404,116 @@ button, .container_datos{
     list-style: none;   
 }
 
+/*Citas*/
 
+.section_cita{
+    font-size: 18px;
+    width: 90vw;
+    height: auto;
+    padding: 20px;
+    margin: 30px auto;
+    background-color: azure;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #716d6d;
+    position: relative; 
+    font-family: 'Raleway', sans-serif;   
+}
+.card_paciente{
+    background-color: #d3e2fe;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+    width: 400px;
+    height: auto;
+    display: inline-block;
+    box-shadow: 5px 5px 5px #716d6d;
+    position: relative; 
+    
+}
+.card_paciente > img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #f5f8fb;
+    align-items: center ;
+    display: inline-block;
+    margin: 5px;
+    position: relative;
+    left: 20%;
+}
+.card_paciente > p{
+    display: inline-block;
+    position: absolute;
+}
+.cont_p{
+    display: inline-block;
+    top: 20px;
+    text-align: center;
+    width:350px;
+    margin: 0 auto;
+}
 
+/*Examenes*/
 
+.section_exam{
+    font-size: 18px;
+    width: 90vw;
+    height: auto;
+    padding: 20px;
+    margin: 30px auto;
+    background-color: azure;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #716d6d;
+    position: relative; 
+    font-family: 'Raleway', sans-serif;   
+}
+.exam{
+    width: 85vw;
+    height: 250px;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #716d6d;
+    background-color: #d3e2fe;
+
+}
+.exam > img{
+    display: inline-block;
+    width: 150px;
+    height: 190px;
+    margin: 20px;
+}
+.cont_p2{
+    display: inline-block;
+    width: 70vw;
+    height: 200px;
+    margin: 10px;
+    position: absolute;
+    line-height: 1.8;
+    text-align: justify;
+    font-size: 20px;
+    padding: 10px;
+    padding-right: 20px;
+}
+.titulo_e{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 24px;
+    width: auto;
+    border-bottom:3px solid #4179D9;
+}
+.info_e{
+    margin: 0 auto;
+    margin-bottom: 30px;
+    text-align: center;
+    width: 70%;
+    background: linear-gradient(to right,#4472C4,#497BD1,#5793FA);
+    border: 3px solid black;
+    padding: 12px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #716d6d;
+    display: block;
+    font-size: 24px;  
+    font-weight: 700;
+    
+}
