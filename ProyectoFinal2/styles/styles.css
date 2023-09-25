@@ -475,7 +475,6 @@ button, .container_datos{
     border-radius: 20px;
     box-shadow: 5px 5px 5px #716d6d;
     background-color: #d3e2fe;
-
 }
 .exam > img{
     display: inline-block;
@@ -517,3 +516,163 @@ button, .container_datos{
     font-weight: 700;
     
 }
+/*Historia Clínica*/
+.section_hc{
+    font-size: 18px;
+    width: 90vw;
+    height: auto;
+    padding: 20px;
+    margin: 30px auto;
+    background-color: azure;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #716d6d;
+    position: relative; 
+    font-family: 'Raleway', sans-serif; 
+}
+.sec_informec{
+    width: 85vw;
+    height: 250px;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #716d6d;
+    background-color: #d3e2fe;
+}
+.container_informe{
+    text-align: center;
+}
+.container_informe > P{
+    padding: 10px;
+}
+.container_informe > textarea{
+    margin-top: 10px;
+    display: inline-block;
+    font-size: 18px;
+    width: 80vw;
+    max-width: 80vw;
+    height: 8vw;
+    max-height: 8vw;
+    min-height: 8vw;
+    min-width: 80vw;
+    background-color: #95B3E6;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    padding: 20px;
+    font-size: 18px;
+}
+.container_informe2{
+    width: 85vw;
+    height: 250px;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #716d6d;
+    background-color: #d3e2fe;
+}
+.container_informe2 > img{
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    margin: 20px;
+}
+.container_informe3{
+    width: 85vw;
+    height: 250px;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #716d6d;
+    background-color: #d3e2fe;
+}
+.container_informe3 > img{
+    display: inline-block;
+    width: 150px;
+    height: 190px;
+    margin: 20px;
+}
+
+.titulo_f{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 24px;
+    width: auto;
+    border-bottom:3px solid #4179D9;
+}
+.titulo_i{
+    text-align: center;
+    font-size: 24px;
+    width: 79vw;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border-bottom:3px solid #4179D9;
+}
+.cont_p3{
+    display: inline-block;
+    width: 70vw;
+    height: 200px;
+    margin: 10px;
+    position: absolute;
+    line-height: 1.8;
+    text-align: justify;
+    font-size: 20px;
+    padding: 10px;
+    padding-right: 20px;
+}
+.cont_p3 > textarea{
+    margin-top: 10px;
+    width: 68vw;
+    max-width: 68vw;
+    height: 7.5vw;
+    max-height: 7.5vw;
+    min-height: 7.5vw;
+    min-width: 68vw;
+    background-color: #95B3E6;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    padding: 20px;
+    font-size: 18px;
+}
+/*Recetas*/
+.section_med{
+    font-size: 18px;
+    width: 90vw;
+    height: auto;
+    padding: 20px;
+    margin: 30px auto;
+    background-color: azure;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #716d6d;
+    position: relative; 
+    font-family: 'Raleway', sans-serif; 
+}
+.medi{
+    width: 85vw;
+    height: 250px;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #716d6d;
+    background-color: #d3e2fe;
+}
+.medi > img{
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    margin: 20px;
+}
+.titulo_e{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 24px;
+    width: auto;
+    border-bottom:3px solid #4179D9;
+}
+.cirugia_img{
+    -webkit-transform: rotateY(180deg);
+}
+
+
+
+

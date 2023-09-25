@@ -11,37 +11,43 @@
     <title>Historia Clínica</title>
 </head>
 <body>
-    <h1 class="h1">Historia Clínica</h1>
+    <h1 class="h1">Realizar Informe</h1>
     <header class="header">
         <nav class="nav_1">
             <ul class="lista">
                 <li class="pag"><a href="../index.html">Ficha paciente</a></li>
-                <li class="pag"><a href="./login.html">Login</a></li>
+                <li class="pag"><a href="./cirugia.html">Cirugias</a></li>
                 <li class="pag"><a href="./citas.html">Citas</a></li>
                 <li class="pag"><a href="./examenes.html">Exámenes</a></li>
-                <li class="pag"><a href="./hclinica.html">Historia Clinica</a></li>
+                <li class="pag"><a href="./hclinica.html">Realizar Informe</a></li>
                 <li class="pag"><a href="./recetas.html">Recetas</a></li>
             </ul>  
         </nav>
     </header>
     <main class="main">
-        <section class="section_hc">
-            <div class="container_informe">
-                <label for="informe1" class="input_informe">Informe</label>
-                <input type="text" name="informe1" class="input_informe">
-            </div>
+        <form class="section_hc">
+            <section class="sec_informec">
+                <div class="container_informe">
+                    <p class="titulo_i"><b>INFORME GENERAL</b><br></p>
+                    <textarea type="text" name="informe1" class="input_informe"></textarea>
+                </div>
+            </section>
             <div class="container_informe2">
-                <img src="../assets/img/medicamento.jpg" alt="medicina" class="med_img">
-                <label for="informe2" class="input_informe2">Se receta</label>
-                <input type="text" name="informe2" class="input_informe2">
+                <img src="../assets/img/medicamento.png" alt="medicina" class="med_img">
+                <div class="cont_p3">
+                    <p class="titulo_f"><b>Se receta</b><br></p>
+                    <textarea type="text" name="informe2" class="input_informe2"></textarea>
+                </div>
             </div>
             <div class="container_informe3">
                 <img src="../assets/img/pruebamed.png" alt="examen" class="exam_img">
-                <label for="informe3" class="input_informe3">Examenes</label>
-                <input type="text" name="informe3" class="input_informe3">
+                <div class="cont_p3">
+                    <p class="titulo_f"><b>Exámenes</b><br></p>
+                    <textarea type="text" name="informe3" class="input_informe3"></textarea>
+                </div>
             </div>
-            <button type="button" class="boton_1"><i class="fa-solid fa-plus"></i></button>
-        </section>
+            
+        </form>
         
     </main>
     <footer class="footer">
@@ -50,7 +56,7 @@
                 <div class="footer-links">
                     <h4>Compañía</h4>
                     <ul>
-                        <li><a href="">Nostros</a></li>
+                        <li><a href="">Nosotros</a></li>
                         <li><a href="">Servicios</a></li>
                         <li><a href="">Politica de privacidad</a></li>
                         <li><a href="">Afiliados</a></li>
